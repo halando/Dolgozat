@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body{
+    background-color: white;
+}
+#container{
+    background-color: white;
+    background-repeat: no-repeat;
+}
+#container h2{
+   text-align: center; 
+}
+#container p{
+    text-align: center;
+}
+#header h1{
+   
+    background: whitesmoke no-repeat;
+ 
+
+}
+.menu ul li>navigation here{
+    float: left;
+    background-color: yellow;
+    color: black;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu ul li>more stuff here{
+    text-align: right;
+    float: right;
+    background-color: chocolate;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#footer{
+    background-color:chocolate ;
+ 
+}
